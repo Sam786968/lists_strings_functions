@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.nettools_mptcp
     pkgs.python38Full
   ];
   env = {

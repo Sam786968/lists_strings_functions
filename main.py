@@ -128,14 +128,19 @@ print(len(newList))
 
 
 #.remove(), .append(), sort(), .len() are list functions
-
+list = ["Adrian", "Mateo", "Nathaniel", 12, 1, 56]
+print(list)
 
 # In[3]:
 
 
 #also we can define N dimensional list not just 1 dimensional
 #1 dimensional means only one item per comma
+avengers = ["hawkeye", "hulk", "iron man", "shang chi", "black panther", "captain america"]
 
+# the first number in the printing of this list determines the box, then the second number determines the number in the box
+multiDimen = [[3,5], [7,6], [6,3], [8,9]]
+print(multiDimen[0][0])
 
 # In[ ]:
 
@@ -154,54 +159,6 @@ print(len(newList))
 # # List functions
 
 # In[ ]:
-
-
-#how do we recognize a function????
-
-#.remove()
-
-
-# In[ ]:
-
-
-#.append()
-
-
-# In[ ]:
-
-
-#.pop()
-
-
-# In[ ]:
-
-
-#.sort()
-#.reverse()
-
-
-# In[2]:
-
-
-#.insert(index, value)
-
-
-# In[ ]:
-
-
-#.index(value)
-
-
-# In[ ]:
-
-
-#.extend()
-
-
-# In[ ]:
-
-
-#.copy()
 
 
 # #Tuples

@@ -160,9 +160,29 @@ print(multiDimen[0][0])
 
 # In[ ]:
 
+avengers = ["hawkeye", "hulk", "iron man", "shang chi", "black panther", "captain america"]
+gog = ["Drax", "rocket racoon", "groot", "starlord", "gamora"]
+# join the lists in a new list
+list = avengers + gog
+print(list)
+
+# add two more characters into the new list
+list.append("shocker")
+list.append("thor")
+print(list)
+
+# reverse the list
+print(list.reverse())
+print(list)
+
+# remove one name from the list
+print(list.remove("shocker"))
+print(list)
+
+# find the index of Drax in the new list
+print(list.index("Drax"))
 
 # #Tuples
-
 # In[ ]:
 
 
